@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: non-deterministic dev nonsense
-email: contact@elipzis.com
+title: non-deterministic development stories
+email: contact@elipZis.com
 description: >- # this means to ignore newlines until "baseurl:"
   Software Developer by birth. Computer Scientist by education.
   Language agnostic, looking for the "fun" in functions.
@@ -32,8 +32,11 @@ github_username:  nea
 
 # Build settings
 theme: minima
+#remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
